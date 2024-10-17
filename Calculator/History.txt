@@ -1,0 +1,25 @@
+5.0 + 5.0 = 10.0
+55 + 43 = 98
+23 + 23 = 46
+Memory added: 46
+2 - 1 = 1
+5 + 5 = 10
+Memory added: 10
+5 - 5 = 0
+Memory added: 10
+5 * 5 = 25
+Memory added: 35
+10 / 5 = 2.0
+Memory added: 37.0
+33 % 5 = 3
+Memory added: 40.0
+Square root of 66 = 8.12403840463596
+Memory added: 48.12403840463596
+55^4 = 9150625
+Memory added: 9150673.124038404
+Memory added: 9150728.124038404
+5 + 5 = 10
+Memory added: 10
+Memory added: 65
+Square root of 48 = 6.928203230275509
+45 + 64 = 109
