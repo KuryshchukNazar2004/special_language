@@ -1,7 +1,13 @@
 import pyfiglet
+import re
 
 def get_text_input():
-    return input("Введіть слово або фразу для ASCII-арту: ")
+    while True:
+        text = input("Введіть слово або фразу для ASCII-арту: ")
+        if re.search('[а-яА-ЯёЁіІїЇєЄ]', text):
+            print("Будь ласка, введіть текст англійською мовою.")
+        else:
+            return text
 
 def get_font_choice():
     available_fonts = ['standard', 'slant', 'block', 'bubble', 'big', 'electronic']  
