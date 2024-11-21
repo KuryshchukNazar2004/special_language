@@ -7,5 +7,5 @@ class ApiClient:
     def get(self, endpoint):
         url = f"{self.base_url}{endpoint}"
         response = requests.get(url)
-        response.raise_for_status()  # Перевірка на помилки
+        response.raise_for_status()  
         return response

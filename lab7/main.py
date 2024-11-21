@@ -47,19 +47,16 @@ def main():
             save_choice = input("Введіть номер: ")
 
             if save_choice == '1':
-                # Отримати дані користувачів з API
                 users = user_repository.get_users() 
                 with open("data/users.json", "w") as f:
                     json.dump(users, f, indent=4)
                 print("Дані користувачів збережено в data/users.json")
             elif save_choice == '2':
-                # Отримати дані постів з API
                 posts = post_repository.get_posts()
                 with open("data/posts.json", "w") as f:
                     json.dump(posts, f, indent=4)
                 print("Дані постів збережено в data/posts.json")
             elif save_choice == '3':
-                # Отримати дані коментарів з API
                 comments = comment_repository.get_comments()
                 with open("data/comments.json", "w") as f:
                     json.dump(comments, f, indent=4)
