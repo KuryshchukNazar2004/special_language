@@ -19,3 +19,6 @@ def main():
         if continue_option != 'y':
             print("Дякуємо за використання програми!")
             break
+
+if __name__ == "__main__":
+    main()
