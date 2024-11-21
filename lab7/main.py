@@ -68,6 +68,7 @@ def main():
             break
         else:
             print("Неправильний вибір дії.")
+        # add lab7
 
 if __name__ == "__main__":
     main()
