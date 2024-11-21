@@ -33,3 +33,6 @@ def main():
         if continue_choice != 'так':
             print("Дякуємо за використання ASCII-ART генератора! До побачення!")
             break
+
+if __name__ == "__main__":
+    main()
