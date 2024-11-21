@@ -24,7 +24,7 @@ class DataVisualizer:
         plt.title(title)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
-        plt.show()
+        plt.show() 
 
     def plot_histogram(self, column, title, xlabel, ylabel):
         plt.hist(self.data[column])
