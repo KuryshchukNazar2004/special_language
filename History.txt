@@ -23,3 +23,7 @@ Memory added: 10
 Memory added: 65
 Square root of 48 = 6.928203230275509
 45 + 64 = 109
+24 + 52 = 76
+Memory added: 76
+2 * 6 = 12
+Memory added: 88
